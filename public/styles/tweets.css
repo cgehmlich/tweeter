@@ -1,0 +1,24 @@
+article {
+margin-left: 2em;
+margin-right: 2em; 
+border: solid lightgrey; 
+border-width: thin; 
+border-radius: 5px;
+margin-top: 1em;
+}
+header {
+background-color: lightgrey;
+}
+footer {
+border-top: solid lightgrey; 
+border-width: thin;
+}
+article:hover {
+border: solid lightslategrey;
+border-width: thin; 
+border-radius: 5px;
+
+}
+header:hover{
+background-color: lightslategrey;    
+}

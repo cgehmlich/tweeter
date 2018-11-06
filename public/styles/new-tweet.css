@@ -1,0 +1,32 @@
+.new-tweet {
+margin-left: 2em;
+margin-right: 2em;
+background-color: lightgrey;
+border-radius: 5px;
+}
+
+form {
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+h2 {
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 1em;
+border-bottom: solid #244751;
+}
+
+textarea {
+width: 366px;
+}
+
+input {
+margin-bottom: 10px;
+}
+
+.counter {
+margin-right: 10px;
+float: right;
+}
+
