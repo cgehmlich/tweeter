@@ -21,3 +21,14 @@ float: left;
 font-size: 2rem;
 line-height: 2.5em;
 }
+
+#compose {
+float: right;
+color: #00a087;
+background-color: #e8fdff;
+height: 60px;
+margin-top: 10px;
+border-radius: 5px;
+border: solid thin #244751;
+
+}

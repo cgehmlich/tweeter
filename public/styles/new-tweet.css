@@ -30,3 +30,10 @@ margin-right: 10px;
 float: right;
 }
 
+#error {
+position: fixed;
+color: black;
+background-color: red;
+font-size: 5em
+}
+
