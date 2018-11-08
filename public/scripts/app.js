@@ -13,7 +13,7 @@ function createTweetElement(tweet) {
       <span name="username" style="vertical-align:top">${tweet.user.name}</span>
       <span name="handle" style="float:right">${tweet.user.handle}</span>
     </header>
-    ${tweet.content.text}
+    <textarea readonly> ${tweet.content.text} </textarea>
     <footer>
       <span name="days" >${moment(tweet.created_at).fromNow()}</span>
     </footer>
@@ -40,7 +40,7 @@ $(document).ready(function () {
     event.preventDefault()
     const $form = $(this);
     var text = event.target.elements.text
-    if (text.value === '' || text.value.length + 1 > 140) {
+    if (text.value === '' || text.value.length > 140) {
       $("#error").toggle().slideDown();
       return
     }
@@ -52,6 +52,8 @@ $(document).ready(function () {
     }).then(() => {
       $('#tweets-container').html("")
       loadData();
+      text.value = ''
+      $('span.counter').text(140);
     })
   })
 })
