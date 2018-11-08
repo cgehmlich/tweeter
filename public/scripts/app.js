@@ -15,7 +15,7 @@ function createTweetElement(tweet) {
     </header>
     ${tweet.content.text}
     <footer>
-      <span name="days" >${Math.round((tweet.created_at - 1541635200000) / 86400000) + ' days ago'}</span>
+      <span name="days" >${moment(tweet.created_at).fromNow()}</span>
     </footer>
   </article>`
   return $tweet;
