@@ -15,3 +15,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+!["Compose Tweet"](https://github.com/cgehmlich/tweeter/blob/master/screenshots/compose.png)
+!["Show Tweets"](https://github.com/cgehmlich/tweeter/blob/master/screenshots/tweets.png)
+
