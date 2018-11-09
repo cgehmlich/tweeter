@@ -13,12 +13,35 @@ footer {
 border-top: solid lightgrey; 
 border-width: thin;
 }
+#flag{
+max-width: 1em;
+float: right;  
+opacity:0;
+}
+#retweet{
+max-width: 1em;
+float: right;
+opacity:0;
+}
+#like{
+max-width: 1em;
+float: right;
+opacity:0;
+}
 article:hover {
 border: solid lightslategrey;
 border-width: thin; 
 border-radius: 5px;
-
 }
 header:hover{
-background-color: lightslategrey;    
+background-color: rgb(129, 135, 141);    
+}
+article:hover #flag {
+opacity: 100;
+}
+article:hover #retweet {
+opacity: 100;
+}
+article:hover #like {
+opacity: 100;
 }

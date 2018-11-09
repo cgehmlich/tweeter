@@ -16,6 +16,9 @@ function createTweetElement(tweet) {
     <textarea readonly> ${tweet.content.text} </textarea>
     <footer>
       <span name="days" >${moment(tweet.created_at).fromNow()}</span>
+      <img id="like" src="/images/like.png">
+      <img id="retweet" src="/images/retweet.png">
+      <img id="flag" src="/images/flag.png">
     </footer>
   </article>`
   return $tweet;
